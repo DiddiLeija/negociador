@@ -1,4 +1,4 @@
-# `negociador`
+# `negociador` :technologist: :moneybag:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G3AL6D6)
 
 > **El Negociador: Una app para negocios. Software libre, 100% en español.**
