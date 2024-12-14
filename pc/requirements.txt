@@ -1,0 +1,5 @@
+# TODO: clavar la versión a algo fijo
+# y usar automatización para actualizar 
+Pillow
+nox
+cx_Freeze
