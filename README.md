@@ -6,7 +6,7 @@
 El objetivo de Negociador es suplantar a un proyecto previo, [Control de Agua](https://github.com/ControlDeAgua/ControlDeAgua), que
 actualmente ya no está activo. Aunque no hereda código directamente, sí hereda parte del diseño y sus objetivos/funciones.
 
-## :warning: Trabajo en proceso :warning:
+## :warning: Trabajo en proceso
 
 ¡Ojo! Este proyecto aún no es estable, y no tiene versiones para usar a nivel de producción.
 Suscríbete al repositorio para enterarte cuando lancemos una edición estable :hugs:
