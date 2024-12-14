@@ -1,7 +1,7 @@
 "Negociador (PC)"
 
 import tkinter
-import pillow
+import PIL as pillow  # asumiendo que usamos el espejo Pillow
 
 # from src import ...
 
