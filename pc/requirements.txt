@@ -1,5 +1,4 @@
-# TODO: clavar la versión a algo fijo
-# y usar automatización para actualizar 
-Pillow
-nox
-cx_Freeze
+# TODO: usar automatización para actualizar 
+Pillow==11.0.0
+nox==2024.10.9
+cx_Freeze==7.2.7
