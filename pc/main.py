@@ -1,9 +1,11 @@
 "Negociador (PC)"
 
+# TODO: sortear las importaciones con un formateador
+
 import tkinter
 import PIL as pillow
 
-# from src import ...
+from src import errors, menu, admin_editor
 
 VERSION = (1, 0, 0)
 
