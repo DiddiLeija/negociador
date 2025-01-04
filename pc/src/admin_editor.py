@@ -9,4 +9,5 @@ from .windowBase import Base
 
 
 class AdminEditor(Base):
-    pass
+    def main_setup(self):
+        pass  # TODO: fixme

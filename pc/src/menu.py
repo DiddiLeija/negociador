@@ -5,8 +5,10 @@ from .windowBase import Base
 
 
 class Password(Base):
-    pass
+    def main_setup(self):
+        pass  # TODO: fixme
 
 
 class Menu(Base):
-    pass
+    def main_setup(self):
+        pass  # TODO: fixme
