@@ -2,6 +2,7 @@
 
 import tkinter
 from .windowBase import Base
+from .database import get_password_data
 
 
 class Password(Base):

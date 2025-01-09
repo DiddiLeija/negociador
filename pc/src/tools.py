@@ -4,6 +4,12 @@ import re
 
 from tkinter import messagebox
 
+links = {
+    # links que se comparten a traves del programa.
+    "doc": "<https://negociador.readthedocs.io/es/>",
+    "issues": "<https://github.com/DiddiLeija/negociador/issues>"
+}
+
 def msg_info(msg, title=None):
     title = str(title)  # pq es imposible dar un default generico?
     messagebox.showinfo(title, msg)
