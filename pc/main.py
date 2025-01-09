@@ -25,10 +25,8 @@ class Main:
         self.current_frame = self.frames[0]
 
     def build_frames(self):
-        # truco para generar frames frescas.
-        # la meta de separar las frames en varios
-        # archivos vuelve todo un poco mas dificil,
-        # pero no imposible...
+        # truco para generar frames frescas. la meta de separar las frames en varios
+        # archivos vuelve todo un poco mas dificil, pero no imposible...
         self.frames = [
             menu.Password(self.root),            # [0]
             menu.Menu(self.root),                # [1]

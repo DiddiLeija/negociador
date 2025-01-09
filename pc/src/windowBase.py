@@ -14,9 +14,9 @@ class Base(ABC):
     finished = False
     frame = None
 
-    def __init__(self, root):
+    def __init__(self, root, grid=True):
         self.root = root
-        self.grid = True  # TODO: opcional
+        self.grid = grid  # TODO: un metodo por si esto llega a ser False?
 
     @abstractmethod
     def main_setup(self):
