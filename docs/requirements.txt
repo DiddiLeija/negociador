@@ -4,4 +4,4 @@ sphinx_copybutton==0.5.2
 # clavamos Sphinx para asegurar un trabajo consistente
 # entre Sphinx y Furo, evitando la ruptura de la
 # documentacion sobre 'main'...
-sphinx==8.2.0
+sphinx==8.2.1
