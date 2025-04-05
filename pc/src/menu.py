@@ -10,32 +10,48 @@ class Password(Base):
 
     def main_setup(self):
         self.pwd_data = get_password_data()
-        self.pwasword_capture = tkinter.StringVar()
+        self.password_capture = tkinter.StringVar()
+        self.user_capture = tkinter.StringVar()
         if self.pwd_data is None:
             self.root.quit()
         # TODO: esto debe ser una imagen de logotipo [grande]
         tkinter.Label(
             self.frame, text="(Imagen aqui)"
         ).grid(column=0, row=0)
-        # Label de instrucciones
+        # Label de instrucciones - usuario
         tkinter.Label(
             self.frame,
-            text=u"Introduzca su contraseña.",
+            text=u"Usuario:",
             bg="whitesmoke",
             fg="black",
             font=("Calibri", "14", "bold")
-        ).grid(column=1, row=0)
-        # TODO: menu de cascada en (column=0, row=1) para elegir el usuario
-        #       (requiere acceso a la lista de claves)
-        # ...
-        # Entrada de contraseña
+        ).grid(column=0, row=1)
+        # Entrada de usuario
+        # TODO: evaluar la posibilidad de un Menu de cascada
+        # en lugar de una captura de texto, evitando errores
+        # (pero, es lo mejor???)
         tkinter.Entry(
             self.frame,
-            textvariable=self.pwasword_capture,
-            show="*",
+            textvariable=self.user_capture,
             width=40,
             font=("Calibri", "14", "bold")
         ).grid(column=1, row=1)
+        # Label de instrucciones - contraseña
+        tkinter.Label(
+            self.frame,
+            text=u"Contraseña:",
+            bg="whitesmoke",
+            fg="black",
+            font=("Calibri", "14", "bold")
+        ).grid(column=0, row=2)
+        # Entrada de contraseña
+        tkinter.Entry(
+            self.frame,
+            textvariable=self.password_capture,
+            show="*",
+            width=40,
+            font=("Calibri", "14", "bold")
+        ).grid(column=1, row=2)
         # Botón de cierre
         tkinter.Button(
             self.frame,
@@ -44,7 +60,7 @@ class Password(Base):
             bg="red",
             fg="white",
             font=("Calibri", "14", "bold")
-        ).grid(column=0, row=2)
+        ).grid(column=0, row=3)
         # Botón de acceso
         tkinter.Button(
             self.frame,
@@ -53,7 +69,7 @@ class Password(Base):
             bg="green",
             fg="white",
             font=("Calibri", "14", "bold")
-        ).grid(column=1, row=2)
+        ).grid(column=1, row=3)
     
     def enter_password(self):
         # TODO: fixme

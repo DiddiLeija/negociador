@@ -22,9 +22,9 @@ def open_database(name: str) -> tuple:
             reason = str(exc)
     if con is None or cur is None:
         tools.msg_err(
-            f"No es posible {"abrir" if con is None else "manipular"} la base de datos '{name}' "
+            f"No es posible {'abrir' if con is None else 'manipular'} la base de datos '{name}' "
             f"a causa de un error interno no esperado ('{reason}').\n\n"
-            f"Consulte al administrador del equipo o pida ayuda en {tools.links["issues"]}"
+            f"Consulte al administrador del equipo o pida ayuda en {tools.links['issues']}"
         )
     return con, cur  # si uno de los dos es None, la operacion superior debe cancelarse
 
