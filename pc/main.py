@@ -32,8 +32,8 @@ class Main:
             menu.Menu(self.root),                # [1]
             admin_editor.AdminEditor(self.root)  # [2]
         ]
-        # TODO: hay algo mas intuitivo??
-    
+        # TODO: hay algun metodo mas apropiado?
+
     def switch_to(self, nxt):
         # funcion que podemos pasarle a las clases
         # de las frames para hacer un switch desde ahi.

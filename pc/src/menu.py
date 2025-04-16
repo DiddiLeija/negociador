@@ -70,7 +70,7 @@ class Password(Base):
             fg="white",
             font=("Calibri", "14", "bold")
         ).grid(column=1, row=3)
-    
+
     def enter_password(self):
         # TODO: fixme
         pass
