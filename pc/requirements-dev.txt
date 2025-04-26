@@ -1,4 +1,4 @@
 # requerimientos exclusivos para el desarrollo
 # de la herramienta.
 nox==2025.2.9
-cx_Freeze==8.1.0
+cx_Freeze==8.2.0
